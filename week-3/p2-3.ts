@@ -1,12 +1,12 @@
-class Animal_ {
+class Animal3 {
     sound = "Bark";
 }
 
-class Dog_ extends Animal_ {
-    show(): void {
+class Dog3 extends Animal3 {
+    show() {
         console.log(this.sound);
     }
 }
 
-let d = new Dog_();
-d.show();
+let dogObj = new Dog3();
+dogObj.show();
